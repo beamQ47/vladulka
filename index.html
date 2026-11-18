@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>💕 Для Влади 💕</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&family=Caveat:wght@500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ЧАСТИНКИ -->
+  <canvas id="particles"></canvas>
+
+  <!-- КНОПКА МУЗИКИ -->
+  <button id="music-btn" aria-label="Музика">🎵</button>
+
+  <!-- ТЕМНА СЦЕНА -->
+  <div id="dark-scene">
+    <!-- Серце -->
+    <div style="position:relative; display:flex; align-items:center; justify-content:center;">
+      <div id="central-heart">🩷</div>
+      <div id="progress-text"></div>
+    </div>
+  </div>
+
+  <!-- СПАЛАХ -->
+  <div id="burst"></div>
+
+  <!-- ПІДКАЗКА -->
+  <div id="hint"></div>
+
+  <!-- ОРБІТА -->
+  <div id="orbit-container"></div>
+
+  <!-- МОДАЛЬНЕ ВІКНО -->
+  <div id="modal">
+    <div class="modal-box">
+      <div class="modal-header">
+        <button class="modal-close" aria-label="Закрити">✕</button>
+      </div>
+      <div id="modal-body"></div>
+    </div>
+  </div>
+
+  <!-- ФІНАЛЬНА СЦЕНА -->
+  <div id="finale-scene">
+    <div id="confetti-container"></div>
+    <div class="finale-letter">
+      <div class="finale-deco">🎀</div>
+      <div class="finale-title">💖 Дякую за цей чудовий рік стосунків! 💖</div>
+      <div id="final-letter-text"></div>
+    </div>
+  </div>
+
+  <!-- ЛАЙТБОКС -->
+  <div id="lightbox">
+    <img id="lightbox-img" src="" alt="full photo" />
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
